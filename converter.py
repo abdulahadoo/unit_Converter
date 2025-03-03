@@ -22,8 +22,8 @@ st.markdown(
         color: white;
     }
     .stButton>button{
-        background: linear-gradient(45deg,rgb(22, 72, 82),rgb(255, 255, 255))
-        color: black;
+        background: linear-gradient(45deg,rgb(22, 72, 82),rgb(245, 9, 9))
+        color: white;
         font-size: 18px;
         padding: 10px 20px;
         border-radius: 10px;
