@@ -92,6 +92,7 @@ def lenght_convertor(value,from_units,to_unit):
         "inches":39.3701,
         "millimeters":1000,
         "centimeters":100,
+        "grams":1000,
     }
     return (value / lenght_convertor[from_units]) * lenght_convertor[to_unit]
 
