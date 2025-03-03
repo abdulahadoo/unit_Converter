@@ -57,7 +57,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 #Title and description
-st.title("<h1> Unit Converter </h1>",unsafe_allow_html=True)
+st.markdown("<h1> Unit Converter </h1>",unsafe_allow_html=True)
 st.write(" Easily convert between different units of length, temperature, and weight.")
 
 #sidebar
