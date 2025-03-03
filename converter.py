@@ -45,6 +45,7 @@ st.markdown(
         border-radius: 10px;
         margin-top: 20px;
         box-shadow: 0px 5px 15px rgb(240, 242, 243);
+        color: white;
     }
     .footer{
         text-align: center;
