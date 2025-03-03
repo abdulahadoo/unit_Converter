@@ -125,6 +125,8 @@ if st.button("❄_Convert_❄"):
         result = temperature_convertor(value,from_unit, to_unit)
 
     st.markdown(f"<div class='result-box'>{value} {from_unit} is equal to {result:.4} {to_unit}</div>" , unsafe_allow_html= True) 
-    st.markdown("<div class='footer'>Developed by Abdul Ahad 🥵</div>",unsafe_allow_html=True) 
-
+    st.markdown(
+    "<div style='text-align: center; font-size: 18px; color: gray;'>Developed by Abdul Ahad 🥵</div>", 
+    unsafe_allow_html=True
+)
 
