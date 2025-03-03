@@ -4,7 +4,7 @@
 import streamlit as st
 st.markdown(
     """
-    <style>
+     <style>
     body {
         background-color:rgb(7, 29, 73);
         color:rgb(243, 233, 233);
@@ -29,7 +29,7 @@ st.markdown(
         border-radius: 10px;
         cursor: pointer;
         transition: 0.3s;
-        box-shadow: 0px 5px 15px rgb(250, 250, 250)
+        box-shadow: 0px 5px 15px rgb(240, 242, 243)
     }
     .stButton>button:hover{
         transform: scale(1.05);
@@ -58,7 +58,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 #Title and description
-st.markdown("<h1> Unit Converter </h1>",unsafe_allow_html=True)
+st.markdown("<h1>⭕ Unit Converter </h1>",unsafe_allow_html=True)
 st.write(" Easily convert between different units of length, temperature, and weight.")
 
 #sidebar
