@@ -11,7 +11,7 @@ st.markdown(
 
     }
     .stApp{
-        background: linear-gradient(135deg, #bcbcbc,rgb(105, 89, 196)); 
+        background: linear-gradient(135deg,rgb(255, 255, 255),rgb(17, 8, 65)); 
         padding: 30px;
         border-radius: 15px;
         box-shadow: 0 10px 15px rgba(0,0,0,0.3);   
@@ -22,14 +22,14 @@ st.markdown(
         color: white;
     }
     .stButton>button{
-        background: linear-gradient(45deg,rgb(22, 72, 82),rgb(82, 20, 20))
+        background: linear-gradient(45deg,rgb(22, 72, 82),rgb(255, 255, 255))
         color: black;
         font-size: 18px;
         padding: 10px 20px;
         border-radius: 10px;
         cursor: pointer;
         transition: 0.3s;
-        box-shadow: 0px 5px 15px rgba(0,201,255,0.4)
+        box-shadow: 0px 5px 15px rgb(250, 250, 250)
     }
     .stButton>button:hover{
         transform: scale(1.05);
@@ -40,11 +40,11 @@ st.markdown(
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgb(45, 27, 87);
         padding: 25px;
         border-radius: 10px;
         margin-top: 20px;
-        box-shadow: 0px 5px 15px rgba(0,201,255,0.3);
+        box-shadow: 0px 5px 15px rgb(240, 242, 243);
     }
     .footer{
         text-align: center;
